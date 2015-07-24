@@ -18,6 +18,10 @@
 }
 */
 
+//- (void)setIndexPath:(NSIndexPath *)indexPath{
+//    
+//     NSLog(@"inde2222222xpath---%d--%d",self.indexPath.section,self.indexPath.row);
+//}
 
 - (void)awakeFromNib
 {
@@ -33,6 +37,6 @@
 
 - (IBAction)statusButton:(UIButton *)sender {
     
-   
+    NSLog(@"indexpath---%d--%d",self.indexPath.section,self.indexPath.row);
 }
 @end
